@@ -3,28 +3,25 @@
 This project aims to develop a machine learning model for short-term load forecasting (STLF) in a power system. The model predicts the load type (e.g., Light Load, Medium Load, Maximum Load) based on historical data of energy consumption and related features.
 
 # Summary
-I have used google colab for this project
-After importing data intitally data is studied to find categorical and numerical column
-datatype of column is checked
-we check for duplicates also but there are none
-Then we do preprocessing.
-we find null values.
-we replace null values with mena values using imputer
-then we check frequency distribution fro different features
-then we do Exploratory Data Analysis, we look for outliers using boxplot
-we check skewness to get idea which method should be used for removing outliers
-as data is skewed then we use IQR
-then we replace outliers with median values using IQR
-Splitting data into features and target variable
-Split the data into train and test sets
-then we do Feature Engineering
-Convert categorical variables like "Load_Type" into numerical using label encoding
-Feature scaling using standard scaler
-Apply SMOTE sampling on train and test data
-Model training, tesing and validation is done for 4 models
-machine learning algorithms for classification, 
-such as logistic regression, decision trees, random forests, or gradient boosting classifiers
-classification metrics such as accuracy, precision, recall, and F1-score to evaluate the model's performance on the test set
+I have used google colab for this project.
+After importing data intitally data is studied to find categorical and numerical column.
+datatype of column is checked.
+we check for duplicates also but there are none.
+Then we do preprocessing,
+we find null values,
+we replace null values with mean values using imputer.
+Then we check frequency distribution for different features.
+Then we do Exploratory Data Analysis, we look for outliers using boxplot. 
+We check skewness to get idea which method should be used for removing outliers
+as data is skewed we use IQR.
+Then we replace outliers with median values using IQR.
+We splitted data into features and target variable and then into train and test sets.
+Then we do Feature Engineering converting categorical variables like "Load_Type" into numerical using label encoding,
+Feature scaling using standard scaler.
+We apply SMOTE sampling on train and test data.
+Model training, tesing and validation is done for 4 machine learning algorithms for classification, 
+such as logistic regression, decision trees, random forests and gradient boosting classifiers.
+classification metrics such as accuracy, precision, recall, and F1-score to evaluate the model's performance on the test set.
 
 ## Project Overview
 
