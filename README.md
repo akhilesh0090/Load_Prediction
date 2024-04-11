@@ -22,6 +22,7 @@ We apply SMOTE sampling on train and test data.
 Model training, tesing and validation is done for 4 machine learning algorithms for classification, 
 such as logistic regression, decision trees, random forests and gradient boosting classifiers.
 classification metrics such as accuracy, precision, recall, and F1-score to evaluate the model's performance on the test set.
+The accuracy of the models were 67.01%,  93.87%,  94.62% and 89.94% repectively.
 
 ## Project Overview
 
